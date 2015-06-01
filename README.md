@@ -4,9 +4,11 @@ loopback-angular-ui-router is a starter pack for creating websites hosting a Loo
 
 This module relies heavily on the [Yeoman](http://yeoman.io/) project scaffolding tool, so if you like Yeoman you'll enjoy this!
 
+If you're looking for the Yeoman generator of this module, check out [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router).
+
 ## Install
 
-Make sure you have [```strongloop```](https://www.npmjs.com/package/strongloop), [```yeoman```](https://www.npmjs.com/package/yeoman), [```generator-ui-router```](https://www.npmjs.com/package/generator-angular-ui-router) and [```generator-loopback-angular-ui-router```](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router) installed globally, then use the ```yo``` command to generate your module.
+Make sure you have [strongloop](https://www.npmjs.com/package/strongloop), [yeoman](https://www.npmjs.com/package/yeoman), [generator-ui-router](https://www.npmjs.com/package/generator-angular-ui-router) and [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router) installed globally, then use the ```yo``` command to generate your module.
 
 ```
 npm install -g strongloop
