@@ -20,7 +20,7 @@ and add the jQuery and Bootstrap JS scripts into index.html. Want to replace boo
 
 then remove the script tag from index.html. Use whatever tools suit you best, without a fight.
 
-Includes html5-boiler-plate and es5-shiv to polyfill older browsers' JS features while building toward web standards.
+Includes [html5-boilerplate](https://github.com/h5bp/html5-boilerplate) and (es5-shim](https://github.com/es-shims/es5-shim) to polyfill older browsers' JS features while building toward web standards. Apply further polyfill as necessary.
 
 ### [Grunt](http://gruntjs.com/) frontend build process
 
