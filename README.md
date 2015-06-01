@@ -2,19 +2,37 @@
 
 loopback-angular-ui-router is a starter pack for creating websites hosting a LoopBack REST API presented using an AngularJS and Bootstrap (CSS) frontend. It aims to scaffold the construction of a full-stack website and aid the developer by offering a simple user experience to do that. All the hard stuff is already taken care of for you by a toolchain of robust, popular and conceptually similar libraries and tools.
 
+## Install
+
+```
+npm install
+```
+
+To take full advantage of the GUI and command line features below, make sure you have [```strongloop```](https://www.npmjs.com/package/strongloop), [```yeoman```](https://www.npmjs.com/package/yeoman) and [```generator-ui-router```](https://www.npmjs.com/package/generator-angular-ui-router) installed globally as well:
+
+```
+npm install -g strongloop
+npm install -g yeoman
+npm install -g generator-angular-ui-router
+```
+
 ## Features
 
-### [Bootstrap](http://getbootstrap.com/), [AngularJS](https://angularjs.org/) and [UI Router](http://angular-ui.github.io/ui-router/)\
+### [Bootstrap](http://getbootstrap.com/), [AngularJS](https://angularjs.org/) and [UI Router](http://angular-ui.github.io/ui-router/)
 
 Take advantage of AngularJS v1.4.0, one of the most popular JavaScript SPA frameworks out there. Use two-way data-binding, heirarchical routing, and the excellent REST API interface provided by this module to create a great user experience. 
 
 Bootstrap CSS v3.3.4 gives you a familiar toolkit to begin laying our your site, and you don't have to know SASS to work with it. Want to include Bootstrap's JS features? 
 
-```npm install --save jquery``` 
+```
+npm install --save jquery
+``` 
 
 and add the jQuery and Bootstrap JS scripts into index.html. Want to replace bootstrap all together? 
 
-```npm uninstall --save bootstrap``` 
+```
+npm uninstall --save bootstrap
+``` 
 
 then remove the script tag from index.html. Use whatever tools suit you best, without a fight.
 
@@ -44,17 +62,14 @@ Automatically generate injectable services in AngularJS for any model exposed by
 
 This module comes configured for testing and is preconfigured and there is an example test created as a template for you to begin testing for youself if you're new to that kind of thing. If you prefer another testing framework, just run 
 
-```npm uninstall --save karma-jasmine```
-
-```npm uninstall --save karma-ng-html2js-preprocessor```
-
-```npm uninstall --save karma-ng-scenario```
-
-```npm uninstall --save karma```
-
-```rm -rf test```
-
-```rm karma*```
+```
+npm uninstall --save karma-ng-html2js-preprocessor
+npm uninstall --save karma-ng-scenario
+npm uninstall --save karma-jasmine
+npm uninstall --save karma
+rm -rf test
+rm karma*
+```
 
 and the testing framework will be completely removed. Replace as you see fit.
 
