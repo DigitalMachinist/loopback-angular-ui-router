@@ -73,9 +73,16 @@ rm karma*
 
 and the testing framework will be completely removed. Replace as you see fit.
 
+## Manuals, Guides and Tutorials
+
+- [LoopBack AngularJS SDK getting started guide](http://docs.strongloop.com/display/public/LB/AngularJS+JavaScript+SDK)
+- [Using Strongloop Arc](http://docs.strongloop.com/display/APIS/Using+Arc)
+- [slc loopback command manual](http://docs.strongloop.com/pages/releaseview.action?pageId=3836281)
+- [yo angular command manual](https://github.com/yeoman/generator-angular)
+
 ## Why isn't this a Yeoman generator?
 
-Good question. I really ought to get on that.
+Actually, it is! Check out [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router).
 
 ## Contrbutors
 
