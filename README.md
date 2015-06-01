@@ -1,3 +1,5 @@
+# loopback-angular-ui-router
+
 ## Overview
 
 loopback-angular-ui-router is a starter pack for creating websites hosting a LoopBack REST API presented using an AngularJS and Bootstrap (CSS) frontend. It aims to scaffold the construction of a full-stack website and aid the developer by offering a simple user experience to do that. All the hard stuff is already taken care of for you by a toolchain of robust, popular and conceptually similar libraries and tools.
