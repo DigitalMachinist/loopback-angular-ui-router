@@ -4,9 +4,8 @@
   "description": "A starter pack for creating websites hosting a LoopBack REST API presented using an AngularJS and Bootstrap (CSS) frontend.",
   "author": [
     {
-      "name": "Axon Interactive",
-      "email": "theteam@axoninteractive.ca",
-      "url": "axoninteractive.ca"
+      "name": "Jeff Rose",
+      "email": "jrose0@gmail.com"
     }
   ],
   "repository": {
