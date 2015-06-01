@@ -1,17 +1,20 @@
 {
-  "name": "",
-  "version": "0.0.0",
+  "name": "loopback-angular-ui-router",
+  "version": "1.0.0",
   "description": "",
   "contributors": [
-    { "name": "Axon Interactive", "email": "theteam@axoninteractive.ca", "url": "axoninteractive.ca" }
+    { 
+      "name": "Jeff Rose", 
+      "email": "jrose0@gmail.com" 
+    }
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/DigitalMachinist/loopback-angular-ui-router.git"
   },
   "main": "scripts/app.js",
-  "license": "No License",
-  "private": true,
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "angular"          : "~1.4.0",
     "angular-resource" : "~1.4.0",

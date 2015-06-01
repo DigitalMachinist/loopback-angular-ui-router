@@ -13,7 +13,7 @@
     "url": "https://github.com/DigitalMachinist/loopback-angular-ui-router.git"
   },
   "main": "server/server.js",
-  "license": "No License",
+  "license": "MIT",
   "private": false,
   "dependencies": {
     "compression": "^1.0.3",
