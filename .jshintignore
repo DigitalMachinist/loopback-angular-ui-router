@@ -1,0 +1,4 @@
+/client/
+/node_modules/
+Gruntfile.js
+app/scripts/services/LoopBack.js

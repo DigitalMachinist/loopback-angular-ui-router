@@ -1,0 +1,68 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "description": "",
+  "author": [
+    { "name": "Axon Interactive", "email": "theteam@axoninteractive.ca", "url": "axoninteractive.ca" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "server/server.js",
+  "license": "No License",
+  "private": false,
+  "dependencies": {
+    "compression"                  : "^1.0.3",
+    "cors"                         : "^2.5.2",
+    "errorhandler"                 : "^1.1.1",
+    "loopback"                     : "^2.14.0",
+    "loopback-boot"                : "^2.6.5",
+    "loopback-datasource-juggler"  : "^2.19.0",
+    "loopback-explorer"            : "^1.1.0",
+    "serve-favicon"                : "^2.0.1"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {
+    "grunt"                        : "~0.4.1",
+    "grunt-autoprefixer"           : "~0.2.0",
+    "grunt-concurrent"             : "~0.3.0",
+    "grunt-contrib-clean"          : "~0.5.0",
+    "grunt-contrib-coffee"         : "~0.7.0",
+    "grunt-contrib-compass"        : "~0.5.0",
+    "grunt-contrib-concat"         : "~0.3.0",
+    "grunt-contrib-connect"        : "~0.5.0",
+    "grunt-contrib-copy"           : "~0.4.1",
+    "grunt-contrib-cssmin"         : "~0.6.0",
+    "grunt-contrib-htmlmin"        : "~0.1.3",
+    "grunt-contrib-imagemin"       : "~0.2.0",
+    "grunt-contrib-jshint"         : "~0.6.0",
+    "grunt-contrib-uglify"         : "~0.2.0",
+    "grunt-contrib-watch"          : "~0.5.2",
+    "grunt-google-cdn"             : "~0.2.0",
+    "grunt-karma"                  : "^0.11.0",
+    "grunt-loopback-sdk-angular"   : "^1.1.2",
+    "grunt-ngmin"                  : "~0.0.2",
+    "grunt-rev"                    : "~0.1.0",
+    "grunt-svgmin"                 : "~0.2.0",
+    "grunt-usemin"                 : "~0.1.11",
+    "jasmine-core"                 : "^2.3.4",
+    "jshint"                       : "^2.5.6",
+    "karma"                        : "^0.12.35",
+    "karma-chrome-launcher"        : "^0.1.12",
+    "karma-jasmine"                : "^0.3.5",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-ng-scenario"            : "^0.1.0",
+    "load-grunt-tasks"             : "~0.1.0",
+    "loopback-sdk-angular"         : "^1.3.7",
+    "time-grunt"                   : "~0.1.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "pretest": "jshint .",
+    "postinstall": "bower install",
+    "test": "grunt test"
+  }
+}
