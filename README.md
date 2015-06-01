@@ -2,7 +2,7 @@
 
 loopback-angular-ui-router is a starter pack for creating websites hosting a LoopBack REST API presented using an AngularJS and Bootstrap (CSS) frontend. It aims to scaffold the construction of a full-stack website and aid the developer by offering a simple user experience to do that. All the hard stuff is already taken care of for you by a toolchain of robust, popular and conceptually similar libraries and tools.
 
-This module relies heavily on the Yeoman project scaffolding tool, so if you like Yeoman you'll enjoy this!
+This module relies heavily on the [Yeoman](http://yeoman.io/) project scaffolding tool, so if you like Yeoman you'll enjoy this!
 
 ## Install
 
@@ -23,9 +23,9 @@ yo loopback-angular-ui-router
 
 ### [Bootstrap](http://getbootstrap.com/), [AngularJS](https://angularjs.org/) and [UI Router](http://angular-ui.github.io/ui-router/)
 
-Take advantage of AngularJS v1.4.0, one of the most popular JavaScript SPA frameworks out there. Use two-way data-binding, heirarchical routing, and the excellent REST API interface provided by this module to create a great user experience. 
+Take advantage of AngularJS v1.4.x, one of the most popular JavaScript SPA frameworks out there. Use two-way data-binding, heirarchical routing, and the excellent REST API interface provided by this module to create a great user experience. 
 
-Bootstrap CSS v3.3.4 gives you a familiar toolkit to begin laying our your site, and you don't have to know SASS to work with it. Want to include Bootstrap's JS features? 
+Bootstrap CSS v3.3.x gives you a familiar toolkit to begin laying our your site, and you don't have to know SASS to work with it. Want to include Bootstrap's JS features? 
 
 ```
 npm install --save jquery
