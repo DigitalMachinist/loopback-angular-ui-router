@@ -2,6 +2,8 @@
 
 loopback-angular-ui-router is a starter pack for creating websites hosting a LoopBack REST API presented using an AngularJS and Bootstrap (CSS) frontend. It aims to scaffold the construction of a full-stack website and aid the developer by offering a simple user experience to do that. All the hard stuff is already taken care of for you by a toolchain of robust, popular and conceptually similar libraries and tools.
 
+If you use Yeoman, check out [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router) for a generator that will scaffold this module structure just by typing ```yo loopback-angular-ui-router```.
+
 ## Install
 
 ```
@@ -79,10 +81,6 @@ and the testing framework will be completely removed. Replace as you see fit.
 - [Using Strongloop Arc](http://docs.strongloop.com/display/APIS/Using+Arc)
 - [slc loopback command manual](http://docs.strongloop.com/pages/releaseview.action?pageId=3836281)
 - [yo angular command manual](https://github.com/yeoman/generator-angular)
-
-## Why isn't this a Yeoman generator?
-
-Actually, it is! Check out [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router).
 
 ## Contrbutors
 
