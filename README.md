@@ -4,7 +4,7 @@ loopback-angular-ui-router is a starter pack for creating websites hosting a Loo
 
 ## Features
 
-### [Bootstrap](http://getbootstrap.com/), [AngularJS](https://angularjs.org/) and [UI Router](http://angular-ui.github.io/ui-router/) responsive frontend
+### [Bootstrap](http://getbootstrap.com/), [AngularJS](https://angularjs.org/) and [UI Router](http://angular-ui.github.io/ui-router/)\
 
 Take advantage of AngularJS v1.4.0, one of the most popular JavaScript SPA frameworks out there. Use two-way data-binding, heirarchical routing, and the excellent REST API interface provided by this module to create a great user experience. 
 
@@ -40,18 +40,23 @@ Use ```yo angular:<command>``` at the command line to create AngularJS views, co
 
 Automatically generate injectable services in AngularJS for any model exposed by the LoopBack REST API each time you run ```grunt```. The task manager runs [grunt-loopback-sdk-angular](https://github.com/strongloop/grunt-loopback-sdk-angular) to update a set of ngResource services from the REST API configuration in LoopBack so you don't have to.
 
-### Ready for testing
+### Test with [Karma](http://karma-runner.github.io/0.12/index.html) and [Jasmine](http://jasmine.github.io/2.0/introduction.html)
 
-This module comes configured for [karma](http://karma-runner.github.io/0.12/index.html)/[jasmine](http://jasmine.github.io/2.0/introduction.html) testing and is preconfigured and there is an example test created as a template for you to begin testing for youself if you're new to that kind of thing. If you prefer another testing framework, just run 
+This module comes configured for testing and is preconfigured and there is an example test created as a template for you to begin testing for youself if you're new to that kind of thing. If you prefer another testing framework, just run 
 
 ```npm uninstall --save karma-jasmine```
+
 ```npm uninstall --save karma-ng-html2js-preprocessor```
+
 ```npm uninstall --save karma-ng-scenario```
+
 ```npm uninstall --save karma```
+
 ```rm -rf test```
+
 ```rm karma*```
 
-and the testing framework will be completely removed.
+and the testing framework will be completely removed. Replace as you see fit.
 
 ## Why isn't this a Yeoman generator?
 
