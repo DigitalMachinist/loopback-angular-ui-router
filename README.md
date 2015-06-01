@@ -22,7 +22,7 @@ then remove the script tag from index.html. Use whatever tools suit you best, wi
 
 Includes [html5-boilerplate](https://github.com/h5bp/html5-boilerplate) and [es5-shim](https://github.com/es-shims/es5-shim) to polyfill older browsers' JS features while building toward web standards. Apply further polyfill as necessary.
 
-### [Grunt](http://gruntjs.com/) frontend build process
+### [Grunt](http://gruntjs.com/) build process
 
 Keep your production website's footprint small without a ton of work by letting build automation do that for you. The ```grunt``` command line build tool makes development, testing, and preparation for deployment all fairly straightforward.
 
@@ -38,7 +38,7 @@ Use ```slc loopback:<command>``` at the command line to create LoopBack models, 
 
 Use ```yo angular:<command>``` at the command line to create AngularJS views, controllers, services and more. Read the [yo angular manual](https://github.com/yeoman/generator-angular).
 
-### Automates REST glue code with [loopback-sdk-angular](https://github.com/strongloop/loopback-sdk-angular)
+### Automates REST API glue code
 
 Automatically generate injectable services in AngularJS for any model exposed by the LoopBack REST API each time you run ```grunt```. The task manager runs [grunt-loopback-sdk-angular](https://github.com/strongloop/grunt-loopback-sdk-angular) to update a set of ngResource services from the REST API configuration in LoopBack so you don't have to.
 
