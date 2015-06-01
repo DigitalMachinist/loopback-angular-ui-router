@@ -40,6 +40,19 @@ Use ```yo angular:<command>``` at the command line to create AngularJS views, co
 
 Automatically generate injectable services in AngularJS for any model exposed by the LoopBack REST API each time you run ```grunt```. The task manager runs [grunt-loopback-sdk-angular](https://github.com/strongloop/grunt-loopback-sdk-angular) to update a set of ngResource services from the REST API configuration in LoopBack so you don't have to.
 
+### Ready for testing
+
+This module comes configured for [karma](http://karma-runner.github.io/0.12/index.html)/[jasmine](http://jasmine.github.io/2.0/introduction.html) testing and is preconfigured and there is an example test created as a template for you to begin testing for youself if you're new to that kind of thing. If you prefer another testing framework, just run 
+
+```npm uninstall --save karma-jasmine```
+```npm uninstall --save karma-ng-html2js-preprocessor```
+```npm uninstall --save karma-ng-scenario```
+```npm uninstall --save karma```
+```rm -rf test```
+```rm karma*```
+
+and the testing framework will be completely removed.
+
 ## Why isn't this a Yeoman generator?
 
 Good question. I really ought to get on that.
