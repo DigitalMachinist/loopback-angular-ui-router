@@ -14,7 +14,7 @@ Bootstrap CSS gives you a familiar toolkit to begin laying our your site, and yo
 
 ```npm install --save jquery``` 
 
-and add jQuery as a script in index.html. Want to replace bootstrap all together? 
+and add the jQuery and Bootstrap JS scripts into index.html. Want to replace bootstrap all together? 
 
 ```npm uninstall --save bootstrap``` 
 
