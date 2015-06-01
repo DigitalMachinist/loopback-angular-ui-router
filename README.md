@@ -79,7 +79,7 @@ Good question. I really ought to get on that.
 
 ## Contrbutors
 
-Jeff Rose, @DigiMachinist
+Jeff Rose, [@DigiMachinist](https://twitter.com/digimachinist)
 
 ## Copyright and License
 
