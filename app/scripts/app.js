@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module( 'gitWritingApp', [
+  .module( 'yourApp', [
     'ngResource',
     'ui.router'
   ] )

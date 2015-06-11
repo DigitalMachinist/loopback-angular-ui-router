@@ -1,14 +1,16 @@
 'use strict';
 
-angular.module( 'gitWritingApp' )
+angular.module( 'yourApp' )
   .controller( 'MainCtrl', [
     '$scope',
     function ( $scope ) {
 
       $scope.awesomeThings = [
+        'LoopBack',
+        'AngularJS + UI Router',
         'HTML5 Boilerplate',
-        'AngularJS',
-        'Karma'
+        'Bootstrap CSS',
+        'Karma + Jasmine'
       ];
 
     }

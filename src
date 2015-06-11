@@ -5040,7 +5040,7 @@ angular.module('ui.router.state')
 'use strict';
 
 angular
-  .module( 'gitWritingApp', [
+  .module( 'yourApp', [
     'ngResource',
     'ui.router'
   ] )
@@ -6738,15 +6738,17 @@ module
 
 'use strict';
 
-angular.module( 'gitWritingApp' )
+angular.module( 'yourApp' )
   .controller( 'MainCtrl', [
     '$scope',
     function ( $scope ) {
 
       $scope.awesomeThings = [
+        'LoopBack',
+        'AngularJS + UI Router',
         'HTML5 Boilerplate',
-        'AngularJS',
-        'Karma'
+        'Bootstrap CSS',
+        'Karma + Jasmine'
       ];
 
     }
