@@ -45,7 +45,7 @@
     "grunt-google-cdn": "~0.2.0",
     "grunt-karma": "^0.11.0",
     "grunt-loopback-sdk-angular": "^1.1.2",
-    "grunt-ngmin": "~0.0.2",
+    "grunt-ng-annotate": "^1.0.1",
     "grunt-rev": "~0.1.0",
     "grunt-svgmin": "~0.2.0",
     "grunt-usemin": "~0.1.11",
