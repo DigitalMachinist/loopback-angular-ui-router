@@ -1,6 +1,6 @@
 {
   "name": "loopback-angular-ui-router",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A starter pack for creating websites hosting a LoopBack REST API presented using an AngularJS and Bootstrap (CSS) frontend.",
   "author": [
     {
