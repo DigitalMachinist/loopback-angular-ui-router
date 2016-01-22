@@ -26,6 +26,35 @@ yo loopback-angular-ui-router
 
 I know it's a lot of stuff, but you need most of these modules to develop in the node world on a daily basis anyway, so trust me. Okay? Okay.
 
+## Getting Started
+
+Make sure that npm and bower have both installed all necessary packages:
+
+```
+cd <your project folder>
+npm install & bower install
+```
+
+Once these are done, you might want to see your project running, like so...
+
+```
+grunt serve
+```
+
+If you just want to build the client files (but not watch/serve them):
+
+```
+grunt
+```
+
+And if you want to make use of loopback's built-in ```/explorer``` and ```/api``` routes, run:
+
+```
+node .
+```
+
+Open your browser to http://localhost:9000/ and enjoy. Have fun tinkering!
+
 ## Features
 
 ### [Bootstrap](http://getbootstrap.com/), [AngularJS](https://angularjs.org/) and [UI Router](http://angular-ui.github.io/ui-router/)
