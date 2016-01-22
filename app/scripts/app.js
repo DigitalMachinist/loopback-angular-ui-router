@@ -2,6 +2,7 @@
 
 angular
   .module( 'yourApp', [
+    'LoopBack',
     'ngResource',
     'ui.router'
   ] )
