@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/DigitalMachinist/loopback-angular-ui-router.git"
   },
-  "main": "index.js",
+  "main": "server/server.js",
   "license": "MIT",
   "private": false,
   "dependencies": {
