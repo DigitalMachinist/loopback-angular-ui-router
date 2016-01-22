@@ -19,6 +19,7 @@ module.exports = function mountLoopBackExplorer( server ) {
   var explorerApp = explorer( server, {
     basePath: restApiRoot
   } );
+
   server.use( '/explorer', explorerApp );
   server.once( 'started', function () {
     var baseUrl = server.get( 'url' ).replace( /\/$/, '' );
@@ -28,3 +29,7 @@ module.exports = function mountLoopBackExplorer( server ) {
     console.log( 'Browse your REST API at %s%s', baseUrl, explorerPath );
   } );
 };
+
+
+
+
