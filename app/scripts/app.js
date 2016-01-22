@@ -9,7 +9,7 @@ angular
   .config( [ '$stateProvider', '$urlRouterProvider',
     function ( $stateProvider, $urlRouterProvider ) {
 
-      //delete $httpProvider.defaults.headers.common[ 'X-Requested-With' ];
+      // Delete $httpProvider.defaults.headers.common[ 'X-Requested-With' ];
       $urlRouterProvider.otherwise( '/' );
       $stateProvider
         .state( 'index', {
