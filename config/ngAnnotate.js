@@ -2,11 +2,11 @@
 
 module.exports = {
   options: {
-        singleQuotes: true
-      },
-      dist: {
-        files: {
-          src: [ '<%= yeoman.dist %>/scripts/*.js' ]
-        }
-      }
+    singleQuotes: true
+  },
+  dist: {
+    files: {
+      src: [ '<%= yeoman.dist %>/scripts/*.js' ]
+    }
+  }
 };

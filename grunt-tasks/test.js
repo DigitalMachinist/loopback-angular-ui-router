@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (grunt) {
+module.exports = function ( grunt ) {
 
   grunt.registerTask( 'test', [
     'clean:server',
@@ -10,6 +10,4 @@ module.exports = function (grunt) {
     'karma'
   ] );
 
- 
 };
-

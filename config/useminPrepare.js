@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = {
-      html: '<%= yeoman.app %>/index.html',
-      options: {
-        dest: '<%= yeoman.dist %>'
-      }
+  html: '<%= yeoman.app %>/index.html',
+  options: {
+    dest: '<%= yeoman.dist %>'
+  }
 };

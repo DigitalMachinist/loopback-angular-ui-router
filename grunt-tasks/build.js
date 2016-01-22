@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function (grunt) {
+module.exports = function ( grunt ) {
 
   grunt.registerTask( 'build', [
     'clean:dist',
@@ -18,4 +18,3 @@ module.exports = function (grunt) {
   ] );
 
 }
-
