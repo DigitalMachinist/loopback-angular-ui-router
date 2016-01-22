@@ -8,7 +8,7 @@ If you're looking for the Yeoman generator of this module, check out [generator-
 
 ## Install
 
-Make sure you have [strongloop](https://www.npmjs.com/package/strongloop), [yeoman](https://www.npmjs.com/package/yeoman), [generator-ui-router](https://www.npmjs.com/package/generator-angular-ui-router) and [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router) installed globally, then use the ```yo``` command to generate your module.
+Make sure you have [strongloop](https://www.npmjs.com/package/strongloop), [yo](https://github.com/yeoman/yo), [generator-ui-router](https://www.npmjs.com/package/generator-angular-ui-router) and [generator-loopback-angular-ui-router](https://github.com/DigitalMachinist/generator-loopback-angular-ui-router) installed globally, then use the ```yo``` command to generate your module.
 
 ```
 npm install -g bower
@@ -22,7 +22,9 @@ npm install -g generator-loopback-angular-ui-router
 yo loopback-angular-ui-router
 ```
 
-**Don't skip any of these global installs!** This module relies upon them to provide access to GUI and command line operations described in the features below.
+**Don't skip any of these global installs unless you really know what you're doing!** This module relies upon them to provide access to GUI and command line operations described in the features below.
+
+I know it's a lot of stuff, but you need most of these modules to develop in the node world on a daily basis anyway, so trust me. Okay? Okay.
 
 ## Features
 
@@ -71,10 +73,11 @@ Automatically generate injectable services in AngularJS for any model exposed by
 This module comes configured for testing and is preconfigured and there is an example test created as a template for you to begin testing for youself if you're new to that kind of thing. If you prefer another testing framework, just run
 
 ```
-npm uninstall --save karma-ng-html2js-preprocessor
-npm uninstall --save karma-ng-scenario
-npm uninstall --save karma-jasmine
-npm uninstall --save karma
+npm uninstall --save-dev karma-chrome-launcher
+npm uninstall --save-dev karma-ng-html2js-preprocessor
+npm uninstall --save-dev karma-ng-scenario
+npm uninstall --save-dev karma-jasmine
+npm uninstall --save-dev karma
 rm -rf test
 rm karma*
 ```
