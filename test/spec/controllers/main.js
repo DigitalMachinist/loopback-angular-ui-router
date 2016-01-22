@@ -1,9 +1,9 @@
 'use strict';
 
-describe( 'Module: gitWritingApp', function () {
+describe( 'Module: yourApp', function () {
 
   // Load the controller's module.
-  beforeEach( module( 'gitWritingApp' ) );
+  beforeEach( module( 'yourApp' ) );
 
   describe( 'Controller: MainCtrl', function () {
 
@@ -16,8 +16,8 @@ describe( 'Module: gitWritingApp', function () {
       controller = $controller( 'MainCtrl', { $scope: scope } );
     } ) );
 
-    it( 'should attach a list of awesomeThings to the scope', function () {
-      expect( scope.awesomeThings.length ).toBe( 3 );
+    it( 'has a list of awesomeThings in scope', function () {
+      expect( scope.awesomeThings.length ).toBeDefined();
     } );
 
   } );
